@@ -24,9 +24,7 @@ public class Prato {
     @Column(name = "data_de_registro")
     private LocalDateTime dataDeRegistro = LocalDateTime.now();
 
-
-    public Prato(Integer id) {
-
+    public Prato() {
     }
 
     public Integer getId() {
